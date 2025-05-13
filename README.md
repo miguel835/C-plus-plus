@@ -57,3 +57,5 @@ Luego ejecutamos el compilado con el ./
 ### [03 Operadores lógicos, aritméticos y relaciones](https://github.com/miguel835/C-plus-plus/tree/main/03%20Operadores%20l%C3%B3gicos%2C%20aritm%C3%A9ticos%20y%20relaciones)
 
 ### [04 Comentarios y buenas prácticas](https://github.com/miguel835/C-plus-plus/tree/main/04%20Comentarios%20y%20buenas%20pr%C3%A1cticas)
+
+### [Ejercicio NombreEdad](https://github.com/miguel835/C-plus-plus/tree/main/05%20NombreEdad)
