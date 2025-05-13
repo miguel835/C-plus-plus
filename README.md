@@ -12,12 +12,10 @@ Revisa este repositorio siguiendo la tabla de contenido por tema
 C++ es un lenguaje de programación creado en 1979, como una extensión de C, C++ nos permite tener un control más profundo de la ejecución de nuestro código ya sea temas de memoria, rendimiento o optimización.
 Este lenguaje es  multiparadigma lo que significa que puedes programar en un estilo orientado a objetos, procedural y genérica tiene muchas herramientas para adaptar el estilo a tu problema.
 
-C++ no usa Garbage Collector (GC) ya que C++ es un lenguaje de programación compilado.
+C++ no usa Garbage Collector (GC) como Python, Javascript ya que C++ es un lenguaje de programación compilado.
 
 ## ¿Por qué aprender C++?
 C++ se utiliza en muchas áreas como en desarrollo de video juegos, simuladores, motores gráficos, sistemas operativos, sistemas embebidos, programación competitiva, entre otros. 
-
-
 
 ## ¿Qué herramientas uso para C++?
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -27,10 +25,13 @@ C++ se utiliza en muchas áreas como en desarrollo de video juegos, simuladores,
 Si no quieres instalar nada simplemente ve a [C++ Shell](https://cpp.sh/) pero tan solo podrás hacer 
 aplicaciones de consola si deseas hacer cosas avanzadas instala las herramientas localmente en tu computadora
 
-Podemos verificar si Mingw se instalo en nuestra computadora ejecutando el siguiente comando en tu terminal o simbolo de sistema 
+Podemos verificar si Mingw se instalo en nuestra computadora ejecutando el siguiente comando en tu terminal linux o en el simbolo de sistema de Windows
 ```bash
 mingw --version 
 ```
+
+No te olvides buscar en la configuración de Visual Studio Code el Cpp Standard y luego cambia
+de la opción Default a la opción c++23.
 
 ## ¿Cómo compilo un archivo .cpp con Mingw?
 ```bash
@@ -38,6 +39,8 @@ g++ -std=c++23 tu_codigo.cpp -o tu_programa
 ```
 Reemplaza el nombre tu_codigo.cpp por el nombre del archivo que tengas, y en 
 tu_programa.exe reemplaza por el nombre que quieres que tenga el archivo compilado
+
+El -std=C++23 es con esto que especificamos la versión del lenguaje de C++
 
 Luego ejecutamos el compilado con el ./
 ```bash
